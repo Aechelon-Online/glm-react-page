@@ -1,13 +1,14 @@
 {
   "name": "glm-react-page",
-  "homepage": "aechelon-online.github.io",
+  "homepage": "https://aechelon-online.github.io/glm-react-page",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && -d dist"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
